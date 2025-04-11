@@ -1,12 +1,10 @@
 import GameSavingLoader from './GameSavingLoader.js';
 
-(async function() {
-    try {
-        const saving = await GameSavingLoader.load();
-        // saving — объект класса GameSaving
-        console.log(saving);
-    } catch (e) {
-        console.log('еггог: ', e);
-    }
-})();
+GameSavingLoader.load().then((saving) => {
+    // saving объект класса GameSaving
+    
+    console.log(saving);
+  }, (error) => {
+    throw new Error(`GameSavingLoader.load() fail with ${error}`);
+  });
 
