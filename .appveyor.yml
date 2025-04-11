@@ -6,8 +6,11 @@ branches:
     - master  # ветка git
     - main
 
-cache: node_modules  # кеширование
-
+cache: # кеширование
+  - node_modules -> false
+  - .webpack -> false
+  - .cache -> false
+  
 install:
   - npm install  # команда установки зависимостей
 
