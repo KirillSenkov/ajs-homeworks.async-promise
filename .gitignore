@@ -1,6 +1,7 @@
 notes.txt
 tree.clean.txt
-make-tree-clean-flat.txt
+make-tree-clean-flat.ps1
+fix-owner.ps1
 test/
 **/.history/
 
