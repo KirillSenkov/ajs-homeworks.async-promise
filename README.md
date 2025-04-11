@@ -1,2 +1,4 @@
-# ajs-homeworks.arraybuffer
-[![Build status](https://ci.appveyor.com/api/projects/status/6ajr2a2ulfhmdn1w?svg=true)](https://ci.appveyor.com/project/KirillSenkov/ajs-homeworks-arraybuffer)
+# ajs-homeworks.async-await
+[![Build status](https://ci.appveyor.com/api/projects/status/b6xjgb47io9e4sue?svg=true)](https://ci.appveyor.com/project/KirillSenkov/ajs-homeworks-async-await)
+
+
